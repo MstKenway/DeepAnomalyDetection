@@ -8,12 +8,9 @@ from stan_markov.scheme import Stan
 from utils import evaluate_outputs, draw_confusion_matrix
 import utils
 
-TRAINING_DATA = 'Dataset/log_20220211_NormalData.csv'
-# TEST_DATA = 'Dataset/log_2_11_1932.csv'
-TEST_DATA = 'Dataset/log-20220404-1921.csv'  # large dataset in April
+TRAINING_DATA = ''
 
-
-# TEST_DATA = 'Dataset/log_2_11_2045.csv'
+TEST_DATA = ''  
 
 
 def add_label(cmd, attack):
